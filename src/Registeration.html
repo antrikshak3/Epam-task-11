@@ -9,7 +9,7 @@ height:550px;
 border:1px solid black;
 margin:auto;
 background:#F3F3F3;
-box-shadow:1px 1px 1px 1px grey;
+box-shadow:1px 1px 1px 1px ;
 }
 #row,#row1,#row2,#row3,#row4,#row5
 {
@@ -36,7 +36,7 @@ input{type=submit}
 width:100px;
 }
 input:hover{border:1px solid red}
-input:hover{background:gray}
+
 input{font-size:25px}
 .r
 {
@@ -89,33 +89,33 @@ document.getElementById("error2").innerHTML="";
 <div id="main">
     <h5 align="center">Registration Page</h5>
     <div id="row" style="color:black">
-        <div class="col">Your First Name</div>
+        <div class="col"> First Name</div>
         <div class="col"><input type="text" id="fn"  onkeypress="return chkAplha(event,'error')" onblur="chkblnk('fn','error')"/></div>
         <div class="col" id="error" style="color:red"></div>
     </div>
     <div id="row1" style="color:black">
-        <div class="col">Your Last Name</div>
+        <div class="col"> Last Name</div>
         <div class="col"><input type="text" id="ln" onblur="chkblnk('ln','error1')"/></div>
         <div class="col" id="error1" style="color:red"></div>
     </div>
     <div id="row2" style="color:black">
-        <div class="col">Your Email id</div>
+        <div class="col"> Email id</div>
         <div class="col">
             <input type="text" id="e" onblur="chkeid()"/></div>
         <div class="col" id="error2" style="color:red"></div>
     </div>
     <div id="row3" style="color:black">
-        <div class="col">Your Passord</div>
+        <div class="col"> Passord</div>
         <div class="col"><input type="password" id="p"  onblur="chkblnk('p','error3')"/></div>
         <div class="col" id="error3" style="color:red"></div>
     </div>
     <div id="row4" style="color:black">
-        <div class="col">Conform Pass</div>
+        <div class="col">Confirm Password</div>
         <div class="col"><input type="password" id="cp"  onblur="chkblnk('cp','error4')"/></div>
         <div class="col" style="color:red" id="error4"></div>
     </div>
     <div id="row5" style="color:black">
-        <div class="col">Your Address</div>
+        <div class="col">Address</div>
         <div class="col">
             <textarea id="adds" onblur="chkblnk('adds','error5')"></textarea></div>
         <div class="col" style="color:red" id="error5"></div>
